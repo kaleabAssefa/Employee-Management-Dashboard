@@ -1,0 +1,107 @@
+.employee-dashboard{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.employee-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0px;
+}
+.employee-box1{
+    width: 250px;
+    background-color: #eafaf1;
+    padding: 20px;
+    border: 4px solid gold;
+}
+
+.employee-box2, .employee-box3,.employee-box4 {
+    width: 250px;
+    background-color: #f1f5f9;
+    padding: 20px;
+}
+.employee-box1:hover {
+    background-color: grey;
+    transform: scale(1.05); /* makes it slightly bigger */
+}
+
+.employee-box2:hover {
+    background-color: grey;
+    transform: scale(1.05); /* makes it slightly bigger */
+}
+
+.employee-box3:hover {
+    background-color: grey;
+    transform: scale(1.05); /* makes it slightly bigger */
+}
+
+.employee-box4:hover {
+    background-color: grey;
+    transform: scale(1.05); /* makes it slightly bigger */
+}
+
+.card-content{
+    text-align: left;
+}
+
+.skills-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: blue;
+     
+}
+
+.skill{
+    color: black;
+    
+}
+
+
+.card-image img{
+     width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.button-container{
+    display: flex;
+    gap:10px;
+    color: blue;
+}
+
+.view-profile{
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    padding: 14px 28px;
+}
+
+.edit-employee{
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    padding: 14px 28px;
+}
+
+.view-profile:hover{
+    background-color:red;
+}
+
+.edit-employee:hover{
+    background-color: red;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.active {
+    background-color: #22c55e; 
+}
+
+.Inactive {
+    background-color: red; 
+}
